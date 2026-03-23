@@ -9,10 +9,10 @@ export default function Welcome() {
 
   return (
     <div className="min-h-screen flex flex-col gap-20 justify-center items-center bg-[#CCD5AE] text-center px-4">
-      <h1 className="text-8xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+      <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
       Welcome to SearchVehicle
-      </h1> 
-      <div className="flex gap-4">
+       </h1>
+      <div className="flex flex-wrap gap-4 justify-center">
         <button
           onClick={() => navigate("/login")}
           className="px-6 py-2 bg-blue-600 text-white rounded-xl"
