@@ -8,7 +8,7 @@ export default function Welcome() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[#CCD5AE] gap-20">
+    <div className="min-h-screen flex flex-col gap-4 justify-center items-center bg-[#CCD5AE] text-center px-4">
       <h1 className="text-8xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
       Welcome to SearchVehicle
       </h1> 
